@@ -25,4 +25,4 @@ Generar una solucion para la administracion de un Cine, realizando una base de d
 - Abrir la solucion con Visual Studio.    
 - Ejecutar.    
 
-[imagen]: http://imagen.com "Diagrama Base de datos"
+[imagen]: https://github.com/riojano0/Tecnicatura_Programacion/blob/master/Practico_Intergador_PrimerA%C3%B1o/CinemaTic9000/Esquema-Base%20de%20Datos.png "Diagrama Base de datos"
