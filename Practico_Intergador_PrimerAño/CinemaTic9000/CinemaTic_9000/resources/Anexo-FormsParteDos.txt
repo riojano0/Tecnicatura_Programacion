@@ -1,0 +1,96 @@
+create proc consulta1_proc
+@fechaingreso int = 2015
+as
+SELECT sum(precio) 'Facturacion Total del año'
+FROM detalle_tickets dt JOIN
+tickets t ON t.id_ticket=dt.id_ticket
+WHERE year(fecha)=@fechaingreso
+
+create view consulta2_view
+as
+select p.pelicula 'Pelicula', count(e.id_entrada)'Entrada Vendidas', sum(d.Precio)'Importe Total', 
+avg(d.precio)'Precio Promedio', max(t.fecha)'Ultima Entrada Vendida'
+from peliculas p join funciones f on p.id_pelicula=f.id_pelicula   
+join entradas e on e.id_funcion=f.id_funcion join detalle_tickets d    
+on d.id_entrada=e.id_entrada join tickets t on t.id_ticket=d.id_ticket  
+group by p.pelicula
+
+create proc consulta3_proc
+@apellido varchar(20)='%'
+as
+SELECT e.apellido+','+e.nombre 'Empleado', count(*)'Cantidad vendidas',
+ p.pelicula 'Pelicula', 
+ Convert(varchar,t.fecha,103) 'Fecha',
+ m.metodo_pago 'Metodo de pago del cliente'
+FROM empleados e JOIN
+cajas c ON c.id_empleado=e.id_empleado JOIN
+tickets t ON c.id_caja=t.id_caja join
+detalle_tickets dt ON dt.id_ticket=t.id_ticket JOIN
+entradas ent ON ent.id_entrada=dt.id_entrada JOIN
+funciones f ON f.id_funcion=ent.id_funcion JOIN
+peliculas p ON p.id_pelicula=f.id_pelicula JOIN
+metodo_pagos m ON m.id_metodo_pago=t.id_metodo_pago
+where e.apellido like @apellido
+GROUP BY e.apellido+','+e.nombre, p.pelicula,Convert(varchar,t.fecha,103), m.metodo_pago
+
+
+create proc consulta4_proc
+@empleado varchar(20) = 'brenda'
+as
+Select c.id_caja 'Caja numero',
+tc.tipo 'Caja Tipo',
+em.nombre 'Empleado'
+from cajas c join tipo_cajas tc on c.id_tipo_caja=tc.id_tipo_caja join empleados em 
+on em.id_empleado=c.id_empleado
+where @empleado not like(select e.nombre
+			from empleados e
+			where e.id_empleado=c.id_empleado)
+
+
+create proc consulta5_poc
+@fechaingreso int = 2016
+as
+SELECT min(Convert(varchar,t.fecha,103)) 'Primera Venta', 
+max(Convert(varchar,t.fecha,103)) 'Ultima Venta' ,
+max(Precio) 'Entrada mas cara'
+FROM tickets t JOIN 
+Detalle_tickets d 
+ON t.id_ticket=d.id_ticket
+WHERE year(fecha)=@fechaingreso
+
+
+create view consulta6_view
+as
+SELECT sum(precio) 'Recaudado', day(fecha) 'Dia'
+FROM detalle_tickets d join tickets t 
+ON t.id_ticket=d.id_ticket
+WHERE  day(fecha) between 28 and 31
+GROUP BY day(fecha)
+
+create view consulta7_view
+as
+SELECT e.apellido + ','+e.nombre'Nombre',
+min(Convert(varchar,t.fecha,103))'Primera Entrada vendida',
+max(Convert(varchar,t.fecha,103))'Ultima entrada vendida',
+sum(d.precio)'Monto total'
+FROM empleados e JOIN cajas c ON 
+c.id_empleado=e.id_empleado JOIN TICKETS t ON t.id_caja=c.id_caja join detalle_tickets d on t.id_ticket=d.id_ticket
+GROUP BY e.apellido + ','+e.nombre
+
+
+create view consulta8_view
+as
+SELECT e.id_empleado 'Numero Identificacion',
+e.nombre + ','+e.nombre'Nombre Completo',
+td.tipo_documento 'Tipo documento',
+e.documento 'Numero de documento',
+Convert(varchar,e.fec_nac,103) 'Fecha Nacimiento'
+FROM empleados e JOIN 
+tipo_documentos td ON td.id_tipo_documento=e.id_tipo_documento
+WHERE exists(SELECT *
+			FROM tickets t join detalle_tickets dt
+			ON t.id_ticket=dt.id_ticket JOIN
+			cajas c ON c.id_caja=t.id_caja
+			WHERE c.id_empleado=e.id_empleado
+			)
+AND td.tipo_documento NOT LIKE 'Pasaporte'

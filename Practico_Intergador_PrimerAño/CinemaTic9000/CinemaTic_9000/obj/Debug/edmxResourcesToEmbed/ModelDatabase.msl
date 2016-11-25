@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PracticoIntegrador_MMRPModelStoreContainer" CdmEntityContainer="PracticoIntegrador_MMRPEntities">
+    <EntitySetMapping Name="Funciones_vista">
+      <EntityTypeMapping TypeName="PracticoIntegrador_MMRPModel.Funciones_vista">
+        <MappingFragment StoreEntitySet="Funciones_vista">
+          <ScalarProperty Name="Id_de_la_Funcion" ColumnName="Id de la Funcion" />
+          <ScalarProperty Name="Pelicula" ColumnName="Pelicula" />
+          <ScalarProperty Name="Horario_de_comienzo" ColumnName="Horario de comienzo" />
+          <ScalarProperty Name="Idioma" ColumnName="Idioma" />
+          <ScalarProperty Name="Subtitulo" ColumnName="Subtitulo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

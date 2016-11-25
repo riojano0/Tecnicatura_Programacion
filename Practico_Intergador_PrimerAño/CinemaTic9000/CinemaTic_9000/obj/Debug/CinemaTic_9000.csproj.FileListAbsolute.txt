@@ -1,0 +1,60 @@
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\CinemaTic_9000_v2.exe.config
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.exe
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.pdb
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\CinemaTic_9000_v2.exe
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\CinemaTic_9000_v2.pdb
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\EntityFramework.dll
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\EntityFramework.xml
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000.csprojResolveAssemblyReference.cache
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formABMempleado.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formABMfuncion.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formABMgenero.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formABMpelicula.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formBase.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formCONSULTAdetallePelicula.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formCONSULTAparteDosPractico.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formMenuPrincipal.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formCONSULTAgrid.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formCONSULTASporFecha.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formNosotros.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formRPTempleados.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formRPTfunciones.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formRPTgeneros.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.formRPTpeliculas.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000_v2.Properties.Resources.resources
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\CinemaTic_9000.csproj.GenerateResource.Cache
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\RdlCompile.cache
+C:\Users\danie\Dropbox\UTN2016\Laboratorio II\Practico Integrador\Programa\CinemaTic_9000_v2\CinemaTic_9000_v2\obj\Debug\RdlCompile.compiled
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\CinemaTic_9000_v2.exe.config
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.exe
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.pdb
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\CinemaTic_9000_v2.exe
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\CinemaTic_9000_v2.pdb
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\EntityFramework.dll
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\EntityFramework.xml
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000.csprojResolveAssemblyReference.cache
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formABMempleado.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formABMfuncion.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formABMgenero.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formABMpelicula.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formBase.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formCONSULTAdetallePelicula.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formCONSULTAparteDosPractico.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formMenuPrincipal.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formCONSULTAgrid.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formCONSULTASporFecha.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formNosotros.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formRPTempleados.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formRPTfunciones.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formRPTgeneros.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.formRPTpeliculas.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000_v2.Properties.Resources.resources
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\CinemaTic_9000.csproj.GenerateResource.Cache
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\RdlCompile.cache
+C:\Users\danie\Documents\GitHub\Tecnicatura_Programacion\Practico_Intergador_PrimerAño\CinemaTic9000\CinemaTic_9000\obj\Debug\RdlCompile.compiled

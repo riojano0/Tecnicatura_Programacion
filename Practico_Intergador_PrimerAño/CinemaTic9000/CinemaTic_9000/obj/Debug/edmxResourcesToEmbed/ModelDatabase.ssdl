@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PracticoIntegrador_MMRPModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'PracticoIntegrador_MMRP.dbo.Funciones_vista' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Funciones_vista">
+    <Key>
+      <PropertyRef Name="Id de la Funcion" />
+      <PropertyRef Name="Pelicula" />
+    </Key>
+    <Property Name="Id de la Funcion" Type="int" Nullable="false" />
+    <Property Name="Pelicula" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Horario de comienzo" Type="varchar" MaxLength="10" />
+    <Property Name="Idioma" Type="varchar" MaxLength="15" />
+    <Property Name="Subtitulo" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="PracticoIntegrador_MMRPModelStoreContainer">
+    <EntitySet Name="Funciones_vista" EntityType="Self.Funciones_vista" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Funciones_vista].[Id de la Funcion] AS [Id de la Funcion], 
+    [Funciones_vista].[Pelicula] AS [Pelicula], 
+    [Funciones_vista].[Horario de comienzo] AS [Horario de comienzo], 
+    [Funciones_vista].[Idioma] AS [Idioma], 
+    [Funciones_vista].[Subtitulo] AS [Subtitulo]
+    FROM [dbo].[Funciones_vista] AS [Funciones_vista]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

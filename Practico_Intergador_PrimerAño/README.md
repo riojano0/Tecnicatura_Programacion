@@ -1,0 +1,28 @@
+# CinemaTic9000
+
+Practico integrador de la materia Programacion I & II y Laboratorio de computacion I & II, donde se integran en el uso de C# y SQLserverr:
+
+**Laboratorio de Computacion**    
+- Base de dato Normalizada    
+- Vistas     
+- Procedimientos almacenados    
+- Carga de registros    
+- Muestra de los datos en la aplicacion    
+
+**Programacion**    
+- Uso de clases (Herencia y composicion)    
+- Uso de Arrays    
+- Conexion a Base de datos    
+- ABMs(Altas,bajas, Modificacion) funcionales sobre la base de datos     
+- Reportes       
+
+## Problematica
+Generar una solucion para la administracion de un Cine, realizando una base de datos normalizada y su correspondiente aplicacion. Solo mostrar partes acotadas de la solucion integral
+
+
+## Modo de Uso
+- Correr DB_Script.sql en SQLserver. (Se encuentra una [imagen] que muestra el diagrama)   
+- Abrir la solucion con Visual Studio.    
+- Ejecutar.    
+
+[imagen]: http://imagen.com "Diagrama Base de datos"

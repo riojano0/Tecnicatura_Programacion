@@ -1,0 +1,148 @@
+create view empleados_vista
+as
+select id_empleado 'Identificacion',
+	apellido+' '+nombre 'Apellido, Nombre',
+	td.tipo_documento 'Tipo documento',
+	documento 'Documento',
+	convert(varchar(10), cast(fec_nac as date), 101) 'Fecha Nacimiento'
+from empleados e join tipo_documentos td on td.id_tipo_documento=e.id_tipo_documento
+
+
+create view tipo_documentos_vista
+as
+select id_tipo_documento 'Id Documento',
+	tipo_documento 'Tipo de Documento'
+from tipo_documentos
+
+
+create view tipo_Cajas_vista
+as
+select id_tipo_caja'Id Tipo de Caja',
+	tipo 'Tipo de caja'
+from tipo_Cajas
+
+
+create view cajas_vista
+as
+select id_caja 'Caja',
+	tc.tipo 'Tipo de Caja',
+	e.[apellido, nombre] 'Empleado asignado'
+from cajas c join empleados_vista e on e.identificacion=c.id_empleado
+join tipo_cajas tc on c.id_tipo_Caja=tc.id_tipo_caja
+
+
+create view Metodo_pagos_vista
+as
+select id_metodo_pago 'Id de Pago',
+	metodo_pago 'Metodo de Pago'
+from metodo_pagos
+
+create view Tipo_Clientes_vista
+as
+select id_tipo_cliente 'Id Tipo Cliente',
+	tipo_cliente 'Tipo de Cliente'
+from Tipo_Clientes
+
+
+create view generos_vista
+as
+select id_genero'Id Genero',
+	genero 'Genero'
+from generos
+
+
+create view Clasificaciones_vista
+as
+select id_clasificacion'Id Clasificacion',
+	clasificacion 'Clasificacion',
+	descripcion 'Descripcion'
+from Clasificaciones
+
+
+create view Peliculas_vista
+as
+select id_pelicula 'Id Pelicula',
+	Pelicula 'Titulo',
+	p.descripcion 'Descripcion',
+	g.genero 'Genero',
+	c.clasificacion 'Clasificacion'
+from Peliculas p join generos g on g.id_genero=p.id_genero
+join clasificaciones c on c.id_clasificacion=p.id_clasificacion
+
+
+create view Idiomas_vista
+as
+select id_idioma 'Id del Idioma',
+	idioma 'Idioma'
+from Idiomas
+
+
+create view subtitulos_vista
+as
+select id_subtitulo 'Id del Subtitulo',
+	subtitulo 'Tipo de Subtitulo'
+from subtitulos
+
+
+create view Funcion_horarios_vista
+as
+select id_horario 'Id del Horario',
+	horario 'Horario de comienzo'
+from Funcion_horarios
+
+
+create view Funciones_vista
+as
+select id_Funcion 'Id de la Funcion',
+	p.pelicula 'Pelicula',
+	fh.horario 'Horario de comienzo',
+	i.idioma 'Idioma',
+	s.subtitulo 'Subtitulo'
+	
+from funciones f join peliculas p on p.id_pelicula=f.id_pelicula
+join funcion_horarios fh on fh.id_horario=f.id_horario join
+idiomas i on i.id_idioma =f.id_idioma join subtitulos s
+on s.id_subtitulo=f.id_subtitulo
+
+create view tipo_Salas_vista
+as
+select id_tipo_Sala 'Id de la Sala',
+	tipo 'Tipo de sala'
+from tipo_Salas
+
+
+create view Entradas_vista
+as
+select e.id_Entrada 'Id de la entrada',
+	ts.tipo 'Tipo de sala',
+	'Sala: '+Convert(varchar(10),b.id_sala)+' Fila: '+b.fila+' Asiento: '+Convert(varchar(10),b.asiento) 'Lugar',
+	f.pelicula 'Pelicula',
+	f.[Horario de comienzo] 'Comienzo en',
+	f.idioma 'Idioma',
+	f.Subtitulo 'Subtitulo',
+	cast(dt.Precio as decimal(18,2)) 'Precio'
+from Entradas e join funciones_vista f on f.[id de la funcion]=e.id_funcion
+join butacas b on b.id_butaca=e.id_butaca
+join salas s on b.id_sala=s.id_sala
+join tipo_salas ts on ts.id_tipo_sala=s.id_tipo_sala
+join detalle_tickets dt on dt.id_entrada=e.id_entrada
+
+
+create view tickets_vista
+as
+select t.id_ticket 'Id Ticket',
+		t.id_caja 'Caja de la venta',
+		tc.[tipo de cliente] 'Tipo de cliente',
+		mp.[metodo de pago] 'Metodo de pago usado',
+		fecha 'Fecha'
+from  tickets t join Tipo_Clientes_vista tc on tc.[id tipo cliente]=t.id_tipo_cliente
+join Metodo_pagos_vista mp on mp.[id de pago]=t.id_metodo_pago
+
+create view detalle_Tickets_vista
+as
+select id_ticket 'ID Ticket correspondiente',
+		id_entrada 'Id de la Entrada',
+		cast(Precio as decimal(18,2)) 'Precio de la entrada'
+from  detalle_Tickets
+
+

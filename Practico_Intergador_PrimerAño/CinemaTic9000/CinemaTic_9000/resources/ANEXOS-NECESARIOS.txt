@@ -1,0 +1,26 @@
+create view vistaPeliculas_2
+as
+select p.id_pelicula 'Identificador', p.pelicula 'Pelicula', count(e.id_entrada)'Entrada Vendidas', sum(d.Precio)'Importe Total', 
+avg(d.precio)'Precio Promedio', max(t.fecha)'Ultima Entrada Vendida'
+from peliculas p join funciones f on p.id_pelicula=f.id_pelicula   join entradas e on e.id_funcion=f.id_funcion join detalle_tickets d    on d.id_entrada=e.id_entrada join tickets t on t.id_ticket=d.id_ticket  
+group by p.id_pelicula, p.pelicula
+
+
+create view vista_detalleFunciones
+as
+select f.id_funcion 'ID Funcion', p.pelicula 'Pelicula', 
+fh.horario 'Comienzo Funcion', i.idioma 'Idioma', s.subtitulo 'Subtitulado'
+from funciones f join peliculas p on f.id_pelicula=p.id_pelicula
+join funcion_horarios fh on f.id_horario=fh.id_horario join
+idiomas i on i.id_idioma=f.id_idioma join subtitulos s on
+s.id_subtitulo=f.id_subtitulo
+
+
+create proc insertarPelicula
+@titulo varchar(20),
+@genero int,
+@clasificacion int,
+@descripcion varchar(800)
+as 
+insert into peliculas(pelicula, id_genero, id_clasificacion,descripcion)
+values(@titulo,@genero,@clasificacion,@descripcion)
