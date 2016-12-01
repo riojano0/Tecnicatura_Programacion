@@ -22,7 +22,9 @@ Generar una solucion para la administracion de un Cine, realizando una base de d
 
 ## Modo de Uso
 - Correr DB_Script.sql en SQLserver. (Se encuentra una [imagen] que muestra el diagrama)   
-- Abrir la solucion con Visual Studio.    
+- Abrir la solucion con Visual Studio.   
+- Modificar la Cadena de conexion para que corresponda a su propio servidor sql
+- Modificar Path que tienen la imagen de inicio y CVs porque actualmente estan absolutos y no relativos
 - Ejecutar.    
 
 [imagen]: https://github.com/riojano0/Tecnicatura_Programacion/blob/master/Practico_Intergador_PrimerA%C3%B1o/CinemaTic9000/Esquema-Base%20de%20Datos.png "Diagrama Base de datos"
